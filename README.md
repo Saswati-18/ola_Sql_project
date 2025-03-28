@@ -1,5 +1,5 @@
 # OLA Cab Ride Data Analysis using SQL
-![]()
+![](https://github.com/Saswati-18/ola_Sql_project/blob/main/ola%20logo%20-3.png)
 
 # Overview
 This project involves a comprehensive analysis of OLA's cab ride data using SQL. The goal is to extract valuable insights and answer various business questions based on the dataset. The following README provides a detailed account of the project's objectives, business problems, solutions, findings, and conclusions.
