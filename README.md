@@ -21,15 +21,13 @@ This project involves a comprehensive analysis of OLA's cab ride data using SQL.
 # Dataset
 The data for this project is sourced from the Kaggle dataset:
 
-# Dataset Link: Movies Dataset
-Schema
+# Schema
 ```sql
 create database ola;
 use ola;
 ```
 Business Problems and Solutions
-# 1. 1.Retrieve all successful bookings
-
+# 1. Retrieve all successful bookings
 ```sql
 select * 
 from bookings
@@ -37,7 +35,7 @@ where booking_status= 'Success';
 ```
 Objective: Determine the number of successful booking
 
-# 2.  2. Find the average ride distance for each vehicle type
+# 2. Find the average ride distance for each vehicle type
 ```sql
 select vehicle_type, avg(ride_distance)
 from bookings
